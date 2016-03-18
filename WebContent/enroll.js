@@ -1,7 +1,3 @@
-/* Smitha H Mallikarjunappa
-JADRN021 Project#2
-Fall 2014 CS545 */
-
 
 // functions to validate field values
 function isEmpty(fieldValue) {
