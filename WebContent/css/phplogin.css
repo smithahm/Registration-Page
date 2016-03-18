@@ -1,0 +1,96 @@
+html, body{
+margin: 0;
+padding: 0;
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1, h2{ text-align: center; 
+color:blue; }
+
+h3{padding-left: 300px}
+
+input { margin: 5px; }
+
+
+table
+{width: 50%;
+margin: auto;
+border-spacing: 0;
+border-collapse: collapse;
+}
+
+td{
+border: 1px solid black;
+padding-left: 10px;}
+
+th{
+padding-left: 10px;
+background-color: #555;
+color: white;}
+
+
+th.first{
+border-radius: 10px 0 0 0 ;
+}
+
+th.last{
+border-radius: 0 10px 0 0;
+}
+
+
+.content {
+font-weight: bold;
+text-align: center;
+color: blue;
+font-size: large;
+}
+
+p.error{
+text-align: center;
+font-weight: bold;
+font-size: 300%;
+padding-top: 100px;
+color: red;
+}
+
+.container{
+border: 1px solid black;
+margin: 5px 10px 5px 10px;
+}
+
+
+.container{
+position: relative;
+width: 75%;
+min-width: 800px;
+min-height: 100%;
+margin: 10px auto 0 auto;
+border: solid #00f 3px;
+border-radius: 10px;
+}
+
+.child{
+float: right;
+margin-top: -300px;
+width: 500px;
+}
+
+.parent{
+width: 500px;
+padding-bottom: 100px;
+padding-left : 40px;
+}
+
+
+p{
+font-weight: bold;
+color:blue;
+font-size: 100%;
+}
+ 
+.emergency{
+padding-bottom: 10px;
+padding-left : 40px;
+}

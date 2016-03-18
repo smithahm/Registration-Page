@@ -1,0 +1,210 @@
+/*
+Halappa Mallikarjunappa Smitha Account:jadrn021
+     CS0545 Fall 2014
+     Project #2
+
+*/
+
+html, body{
+margin: 0;
+padding: 0;
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#container{
+position: relative;
+width: 75%;
+min-width: 800px;
+min-height: 100%;
+margin: 10px auto 0 auto;
+border: solid #00f 3px;
+border-radius: 5px;
+}
+
+.logo{
+float: left;
+left: 0;
+top: 0;
+padding-bottom: 0px;
+}
+
+h2{
+text-align: center;
+padding-top: 30px;
+font-family: Verdana;
+font-weight: bold; 
+} 
+
+.menu{
+position: absolute;
+min-width: 15%;
+top: 120px;
+left: 0;
+}
+
+.menu ul{
+padding-top: 20px;
+list-style: none;
+padding-left: 10px;
+padding-right: 25px;
+border-right: outset black 3px;
+}
+
+.menu li{
+padding-bottom: 25px;
+}
+
+.sidebar a{
+display: block;
+text-decoration: none;
+border: inset black 2px;
+text-align: center;
+padding: 5px 15px 5px 15px;
+font-family: Verdana;
+font-weight: bold;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+fieldset{
+position: relative;
+left: 18%;
+width: 70%;
+}
+
+legend{
+font-family: verdana;
+font-weight: bold;
+}
+
+h5{
+color: blue;
+font-family: verdana;
+}
+
+.sidebar a:hover{
+color:white;
+background-color: blue;
+border: ridge white 2px;
+}
+
+.button_panel{
+text-align: center;
+border-top: 3px solid blue;
+padding-top: 50px;
+padding-bottom: 15px;
+}
+
+.button{
+font-weight: bold;
+font-family: verdana;
+}
+
+
+input {
+font-family: verdana;
+}
+
+.program label{
+color: blue;
+font-family: verdana;
+font-weight: bold;
+} 
+
+li{
+padding-bottom: 20px;
+} 
+
+#message_line {
+    height: 20px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    } 
+
+#message_line2 {
+    height: 30px;
+    color: red;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    } 
+
+
+#message_line3 {
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 150%;
+    } 
+
+
+#message_line4 {
+    height: 40px;
+    color: red;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    } 
+
+#loading{
+position: absolute;
+height: 300px;
+top: 20%;
+left: 35%;
+border : 3px solid blue;
+}
+
+.required{
+color: red;
+}
+
+.mandatory{
+color: grey;
+}
+
+.heading{
+color: blue;
+font-weight: bold;
+padding-top: 10px;
+}
+
+.focus{
+background-color: #EEF;
+border: 1px inset red;
+border-radius: 10px;
+}
+
+.error {
+    border:  1px solid red;   
+    background-color: #EEF;  
+    }
+
+label {
+font-weight: bold;
+}
+
+#registration{
+border: 2px solid black;
+}
+
+.registration{
+font-weight: bold;
+}
+
+
+
+
